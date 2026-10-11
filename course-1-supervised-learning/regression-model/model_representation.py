@@ -9,8 +9,8 @@ def compute_model_output(x, w, b):
         f_wb[i] = x[i] * w + b
     return f_wb
 
-x_train = np.array([1.0, 2.0])
-y_train = np.array([300.0, 500.0])
+x_train = np.array([1.0, 2.0])           #(size in 1000 square feet)
+y_train = np.array([300.0, 500.0])           #(price in 1000s of dollars)
 m = len(x_train)
 w = 200
 b = 100
